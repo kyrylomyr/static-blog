@@ -4,6 +4,8 @@ A static blog based on markdown `.md` files. Compiles to a static website that d
 
 The example blog doesn't have any UI design, but has already enabled LESS support. Use any library to style it.
 
+Demo can be seen [here](https://static-blog.kyrylomyr.vercel.app).
+
 The current repository is a base also for my personal blog [https://kmyr.dev](https://kmyr.dev).
 
 Feel free to use the code as an example for your own static blog.

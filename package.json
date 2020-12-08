@@ -1,0 +1,31 @@
+{
+    "name": "static-blog",
+    "version": "1.0.0",
+    "description": "A static blog",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build && next export",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kyrylomyr/static-blog.git"
+    },
+    "author": "Kyrylo Myroshnychenko",
+    "license": "GPL",
+    "dependencies": {
+        "next": "^10.0.0",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "react-markdown": "^5.0.2",
+        "react-syntax-highlighter": "^15.3.0",
+        "remark-gfm": "^1.0.0"
+    },
+    "devDependencies": {
+        "@zeit/next-less": "^1.0.1",
+        "gray-matter": "^4.0.2",
+        "less": "^3.12.2",
+        "lodash": "^4.17.20"
+    }
+}
